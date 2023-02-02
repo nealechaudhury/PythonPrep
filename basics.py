@@ -29,7 +29,8 @@ def _list(_s):
 	_l[2] = 'aaa'
 	print(_s, _l)
 
-
+_l = ['a', 'b', 'c', 1 , 2, 3]
+_str = ','.join(map(str,_l))
 
 
 if __name__ == '__main__':
